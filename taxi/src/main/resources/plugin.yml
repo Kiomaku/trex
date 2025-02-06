@@ -1,0 +1,19 @@
+name: DragonTaxiCore
+version: 1.0
+main: daragon.taxi.dragonTaxiCore.DragonTaxiCore
+softdepend: [GPS]
+commands:
+  requesttaxi:
+    description: Request a taxi
+    usage: /requesttaxi
+  accepttaxi:
+    description: Accept a taxi request
+    usage: /accepttaxi <playerName>
+  canceltaxi:
+    description: Cancel a taxi request
+    usage: /canceltaxi
+
+permissions:
+  taxi.driver:
+    description: Allows players to be taxi drivers
+    default: false

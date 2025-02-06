@@ -1,0 +1,43 @@
+messages:
+  request_success: "Taxi request sent to available taxi drivers."
+  request_no_location: "Selected taxi location is invalid."
+  accept_usage: "Usage: /accepttaxi <playerName>"
+  accept_no_player: "Player not found."
+  accept_no_request: "No taxi request found for {playerName}."
+  accept_already_accepted: "This taxi request has already been accepted by another driver."
+  accept_notification: "{driverName} has accepted your taxi request!"
+  accept_taxi_notification: "The taxi request from {playerName} has been accepted by {driverName}."
+  cancel_usage: "Usage: /canceltaxi"
+  cancel_no_request: "You have no active taxi requests to cancel."
+  cancel_success: "Your taxi request has been canceled."
+  cancel_notify_driver: "{playerName} has canceled the taxi request."
+  arrived_at_player: "You have arrived at {playerName}'s location."
+  arrived_at_destination: "You have arrived at the destination."
+  guiding_to_player: "Guiding you to {playerName}..."
+  guiding_to_destination: "Guiding you to your destination..."
+  taxi_mg: "{playername} is requesting a taxi to {locationname}. Type /accepttaxi {playername} to accept the request."
+
+locations:
+  - name: "City Center"
+    world: "world"
+    x: 100.5
+    y: 65.0
+    z: 200.5
+    yaw: 0.0
+    pitch: 0.0
+
+  - name: "Airport"
+    world: "world"
+    x: 250.5
+    y: 70.0
+    z: 500.5
+    yaw: 90.0
+    pitch: 0.0
+
+  - name: "Train Station"
+    world: "world"
+    x: -150.5
+    y: 64.0
+    z: -250.5
+    yaw: 180.0
+    pitch: 0.0
