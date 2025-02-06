@@ -1,0 +1,10 @@
+# Discord bot settings
+bot-token: ""
+guild-id: ""
+verify-role-id: ""
+server-ip: "play.frostborn.ir"
+discord-url: "https://discord.gg/huvJ2ECjxP"
+
+# Verification codes and linked players
+codes: {}
+linked: {}

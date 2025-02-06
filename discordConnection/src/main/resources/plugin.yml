@@ -1,0 +1,17 @@
+name: DragonDiscordCore
+version: '1.0'
+main: me.barsam.dragonDiscordCore.DragonDiscordCore
+api-version: '1.20'
+commands:
+  discordlink:
+    description: Link or unlink your Minecraft account with Discord.
+    usage: /discordlink <link|unlink|sync>
+    permission: discord.use
+    permission-message: "You don't have permission to use this command!"
+permissions:
+  discord.use:
+    description: Allows players to use /discord commands.
+    default: true
+  discord.unlink:
+    description: Allows players to unlink their Minecraft account from Discord.
+    default: op
