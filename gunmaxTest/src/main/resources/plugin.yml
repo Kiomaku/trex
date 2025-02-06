@@ -1,0 +1,55 @@
+name: GunMaxEasyPlugin
+version: '1.0'
+main: me.barsam.gunMaxEasyPlugin.GunMaxEasyPlugin
+api-version: '1.20'
+commands:
+  gbalance:
+    description: Check your current GCoin balance.
+    usage: /gbalance
+  givemoney:
+    description: Give a certain amount of GCoins to a player or all players.
+    usage: /givemoney <player|all> <amount>
+    permission: gunMaxEasyPlugin.givemoney
+
+  takemoney:
+    description: Take a certain amount of GCoins from a player.
+    usage: /takemoney <player> <amount>
+    permission: gunMaxEasyPlugin.takemoney
+  resetmoney:
+    description: Reset a player's GCoin balance to zero.
+    usage: /resetmoney <player>
+    permission: gunMaxEasyPlugin.resetmoney
+  gpay:
+    description: Pay another player a certain amount of GCoins.
+    usage: /gpay <player> <amount>
+    permission: gunMaxEasyPlugin.gpay
+  gcointop:
+    description: View the top GCoin holders.
+    usage: /gcointop
+    permission: gunMaxEasyPlugin.gcointop
+  gsetmobmoney:
+    description: change setting of an entitiy coin drop.
+    usage: /gsetmobmoney
+    permission: gunMaxEasyPlugin.gsetmobmoney
+permissions:
+  gunMaxEasyPlugin.gbalance:
+    description: Allows the player to check their GCoin balance.
+    default: true
+  gunMaxEasyPlugin.givemoney:
+    description: Allows the player to give GCoins to another player.
+    default: op
+  gunMaxEasyPlugin.takemoney:
+    description: Allows the player to take GCoins from another player.
+    default: op
+  gunMaxEasyPlugin.resetmoney:
+    description: Allows the player to reset another player's GCoin balance.
+    default: op
+  gunMaxEasyPlugin.gpay:
+    description: Allows the player to pay another player GCoins.
+    default: true
+  gunMaxEasyPlugin.gcointop:
+    description: Allows the player to view the top GCoin holders.
+    default: true
+  gunMaxEasyPlugin.gsetmobmoney:
+    description: Allows the player to view the top GCoin holders.
+    default: true
