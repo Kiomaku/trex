@@ -1,0 +1,27 @@
+#############################################
+#              KoyaGPS Config               #
+#   Developed With 💗 By Koya Development   #
+#############################################
+
+
+# Heres the options of plugin you may want to change
+# Options like Bossbar Settings or Action Bar Settings are accessible here
+Bossbar: true
+Actionbar: true
+ArrowGuide: true
+
+# If the player right-clicks on this item, the GPS menu will open
+# You can get this item using the following command:
+# /gps give (player)
+Item:
+  Name: "&8(&b&lGPS&8)" # The name of the item in-game
+  Item: COMPASS # The type of item (Compass)
+
+FastTravel:
+  Enable: true # If set to true, Fast Travel will be available for players.
+  Vault: true # If enabled, Fast Travel can have a cost. Requires the Essentials plugin.
+
+
+GUI:
+  Title: "&8KoyaGPS" # The title of the GPS GUI
+  Size: 6 # The number of GUI rows (each row contains 9 slots)
